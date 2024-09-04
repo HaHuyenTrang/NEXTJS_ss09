@@ -5,7 +5,7 @@ import { Calendar } from "@/components/ui/calendar"
 import { ModeToggle } from '@/components/ModleToggle'
 import { Accordion } from '@/components/ui/accordion'
 import { AccordionDemo } from '@/components/Accordion'
-export default function page() {
+export default function Page() {
   const [date, setDate] = React.useState<Date | undefined>(new Date())
   return (
     <div>page
